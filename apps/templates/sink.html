@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>싱크홀</title>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+</script>
+
+ <script>
+function initialize()
+{
+var mapProp = {
+  center:new google.maps.LatLng(37.5651,126.98955),
+  zoom:11,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+var map=new google.maps.Map(document.getElementById("googleMap")
+  ,mapProp);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+</head>
+
+<body>
+	<nav>홈</nav>	
+	<h1>프로젝트 싱크홀</h1>
+		<div id="googleMap" style="width:1000px;height:700px;"></div>
+	<p>성공적인 프로젝트가 될 예정</p>
+</body>
+</html>
