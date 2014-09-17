@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block contents %}
+<div class="report">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+           <div>
+                <h5>싱크홀 이미지</h5>
+                <img src = "{{ original_path }}" width="60%" height="60%"/>
+            </div>
+            <div>
+                <h5>이 사진의 정보가 맞나요?</h5>
+                {% for key in exif_data %}
+                    <p>{{ key }} : {{ exif_data[key] }}</p>
+                {% endfor %}
+        	</div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,194 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html {
+    position: relative;
+    min-height: 100%;
+ }
+
+ body{
+	font-family:'Nanum Gothic';
+	background-color: #ABB7B7;
+	margin-bottom: 50px;     
+}
+
+
+/*--------------navbar--------------*/
+.navbar-brand {
+	font-family:'Nanum Gothic';
+	background-color: transparent;
+	border-color: transparent;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.navbar-inverse .navbar-brand {
+	font-family:'Nanum Gothic';
+	background-color: transparent;
+	border-color: transparent;
+	color: #FFFFFF;
+}
+
+.navbar-inverse {
+	font-family:'Nanum Gothic';
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	font-family:'Nanum Gothic';
+	color: #FFFFFF;
+	background-color: rgba(149%,165%,166%,0.2);
+	border-color: rgba(149%,165%,166%,0.2);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	font-family:'Nanum Gothic';
+	background-color: transparent;
+	border-color: transparent;
+	color: #FFFFFF;
+}
+
+.navbar{
+	font-family:'Nanum Gothic';
+	background-color: rgba(0%,0%,0%,0);
+	border-color: transparent;
+}
+
+
+/*--------------footer--------------*/
+
+.footer {
+	margin-right: 1%;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0%,0%,0%,0.1);
+	border-color: transparent;
+}
+
+.container_footer{
+	padding-top: 5px;
+	font-size: 12px;
+	color: #34495e;
+}
+
+
+/*--------------find_btn--------------*/
+.logo{
+	width: 50%;
+	height: 30%;
+}
+
+.grid figure {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	margin-top: 15%;
+	height: 520px;
+	text-align: center;
+	cursor: pointer;
+}
+
+figure div{
+	font-family:'Nanum Gothic';
+	font-size: 50px;
+	color: #ffffff;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+figure a:hover, a:focus {
+ text-decoration: none;
+}
+
+figure.effect-4 img {
+	opacity: 0.8;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+figure.effect-4:hover img {
+	opacity: 0.6;
+}
+
+figure.effect-4 figcaption::before,
+figure.effect-4 figcaption::after {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	content: '';
+	opacity: 1;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-4 figcaption::before {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+figure.effect-4 figcaption::after {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	-webkit-transform: scale(1,0);
+	transform: scale(1,0);
+}
+
+figure.effect-4 h2 {
+	padding-top: 15%;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,-20px,0);
+	transform: translate3d(0,-20px,0);
+}
+figure.effect-4 p {
+	font-family:'Nanum Gothic';
+	font-size: 20px;
+	color: #ffffff;
+	text-decoration: none;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+
+
+figure.effect-4:hover figcaption::before,
+figure.effect-4:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	text-decoration: none;
+}
+
+figure.effect-4:hover h2,
+figure.effect-4:hover p{
+	font-family:'Nanum Gothic';
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	text-decoration: none;
+}
+
+
+/*--------------report--------------*/
+.report{
+	margin-top: 10%;
+	text-align: center;
+}
+.imageUpdate{
+	padding-top: 50px;
+}
+.file_btn{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 20%;
+	background-color: #ffffff;
+}

@@ -1,0 +1,24 @@
+{ 
+	"type": "FeatureCollection",
+  "features": [
+  { 
+   "type": "Feature",
+   "id": 0,
+   "properties": 
+   {
+    "name": "sinkholes"
+    },
+    "geometry": 
+    {
+     "type": "Point", 
+     "coordinates": [
+     [
+       [37.5113332,126.9569343],
+       [37.4998262,126.9689506],
+       [37.509291, 126.902518]
+      ]
+     ]
+   }
+ }
+ ]
+}

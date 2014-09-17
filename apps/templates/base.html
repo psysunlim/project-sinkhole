@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+  <meta charset="UTF-8">
+  <title>Sinkhole</title>
+   <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
+    <script src="static/js/sink.js"></script>
+    {% block favicon %}
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/sinkhole_Logo_sm.png') }}"/>
+    {% endblock %}
+
+</head>
+<body>
+
+{% block layout %}{% endblock %}
+
+
+{% block scripts %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+{% endblock %}
+
+<div class="footer">
+  <div class="container_footer">
+    <p> 이 사이트는 나눔글꼴로 제작되었으며 나눔글꼴의 모든 저작권은 네이버에 있습니다. <br/>
+     Sinkhole.com 멋쟁이사자처럼 at SSU </p>
+  </div>
+</div>
+ 
+</body>
+</html>

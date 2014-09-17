@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block contents %}
+  <div class="row">
+    <div class="col-md-4 col-md-offset-4">
+        <div class="grid">
+            <figure class="effect-4">
+              <a href="{{url_for('sink')}}">
+                <figcaption>
+                        <h2><span><img src="{{ url_for('static', filename='img/sinkhole_Logo.png') }}" alt="sinkhole_Logo" class="logo"></span></h2>
+                        <p>찾아보기</p>
+                        <div>Sinkhole</div>
+                </figcaption>
+              </a>
+            </figure>
+        </div>
+    </div>
+  </div>
+{% endblock %}
