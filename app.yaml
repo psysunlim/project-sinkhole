@@ -1,5 +1,5 @@
 application: sonic-dialect-643
-version: 0-0-1-proto
+version: v1
 runtime: python27
 api_version: 1
 threadsafe: yes

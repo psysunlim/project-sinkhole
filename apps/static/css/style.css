@@ -198,21 +198,19 @@ figure.effect-4:hover p{
 
 #map_total{
 	margin: auto;
-	margin-top: 80px;
+	margin-top: 15px;
 	width: 90%;
 }
 
 #map_small{
 	width: 100%;
 	height: 300px;
-	border:solid 3px black;
 	display: block
 }
 
 #map_information{
 	width: 100%;
 	height: 450px;
-	border:solid 3px black;
 	display: block;
 	overflow: auto;
 
@@ -222,14 +220,14 @@ figure.effect-4:hover p{
 	margin: auto;
 	width: 69%;
 	height: 750px;
-	border:solid 3px black;
 	display: inline-block;
 }
 
 #map_left{
 	width:30%;
 	display: inline-block;
-	margin: auto;
+	height:750px;
+	border: solid black 1px;
 }
 
 
